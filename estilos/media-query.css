@@ -45,13 +45,22 @@ Grandes telas: acima de 1200px
     }
 
     section#login >div#imagem { /* Configura a div com id="imagem" na section com id="login" */
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario { /* Configura a div com id="formulario" na section com id="login" */
-        float:right;
+        float:left;
         width: 50%;
     }
+
+    div#formulario > h1 { /* Dentro da a div com id="formulario" tem p*/
+        font-size: 2em;
+    }
+
+    div#formulario > p { /* Dentro da div com id="formulario" tem p */
+        font-size: 1.2em; /* Muda o tamanho da fonte do p */
+    }
+
 }

@@ -60,3 +60,12 @@ section#login > div#formulario { /* Dentro da section com id="login" tem a div c
     display: block; /* Dentro da section com id="login", a div com id="imagem" fica como bloco */
     padding: 10px;
 }
+
+div#formulario > h1 { /* Dentro da div com id="formulario" tem h1 ("Login") */
+    text-align: center; /* Centraliza o texto */
+    margin-bottom: 10px; /* Coloca uma margem de 10px em baixo do h1*/
+}
+
+div#formulario > p { /* Dentro da div com id="formulario" tem p */
+    font-size: 0.8em; /* Muda o tamanho da fonte do p */
+}
