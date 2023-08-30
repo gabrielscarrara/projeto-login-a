@@ -18,6 +18,7 @@ Grandes telas: acima de 1200px
     
     section#login { /* Configura a secion com id="login" */
         width: 80vw; /* Largura fica com 90% da tela */
+        height: 280px;
     }
 
     section#login > div#imagem { /* Configura a div com id="imagem" na section com id="login" */
@@ -42,6 +43,7 @@ Grandes telas: acima de 1200px
 
     section#login { /* Configura a section com o id="login" */
         width: 950px;
+        height: 350px;
     }
 
     section#login >div#imagem { /* Configura a div com id="imagem" na section com id="login" */
@@ -60,7 +62,7 @@ Grandes telas: acima de 1200px
     }
 
     div#formulario > p { /* Dentro da div com id="formulario" tem p */
-        font-size: 1.2em; /* Muda o tamanho da fonte do p */
+        font-size: 1em; /* Muda o tamanho da fonte do p */
+        margin: 20px 0px;
     }
-
 }
