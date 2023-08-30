@@ -38,7 +38,7 @@ section#login {
 
     background-color: white; /* A section com id="login" fica com a cor de fundo branca */
     width: 250px;
-    height: 500px;
+    height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.431); /*Coloca sombra, fica sem deslocamento (0px 0px) e 10px de espalhamento, com cor preta */
 
@@ -68,4 +68,56 @@ div#formulario > h1 { /* Dentro da div com id="formulario" tem h1 ("Login") */
 
 div#formulario > p { /* Dentro da div com id="formulario" tem p */
     font-size: 0.8em; /* Muda o tamanho da fonte do p */
+}
+
+form > div.campo { /* Dentro do form, tem uma div com a class = "campo"*/
+    background-color: #5f2c82; /* Muda a cor de fundo para essa*/
+    display: block; 
+    width: 100%; /* Fica com a largura de 100%*/
+    height: 40px; /* Faz a altura da div ficar com 40px */
+    border-radius: 5px; /* Arredonda a borda para 5px */
+    margin: 5px 0px; /* Margem: de cima e baixo ficam com 5px, e a da esquerda e direita ficam com 0px */
+}
+
+div.campo > label { /* Dentro div com a class = "campo", tem um label (Nessa caso são o "Login" e "Senha" */
+    display: none; /* Tira o "login" e "senha" */
+}
+
+form > input[type=submit] { /* Dentro do form tem um input com type=submit (é o botão ENTRAR)*/
+    display: block; /* Transforma o botão em bloco */
+    font-size: 1em; /* Muda o tamanho da fonte para 1em */
+    width: 100%; /* Faz o botão de entrar ocupar 100% do container*/
+    height: 40px; /* Faz a altura do botão de entrar ficar com 40px */
+    background-color: #49a09d; /* Faz a cor do botão de entrar ficar com cor Verde */
+    color: white; /* Deixa a cor da borda em branco*/
+    border: none; /* None: tira a borda*/
+    border-radius: 5px; /* Arredonda a borda para 5px */
+    cursor: pointer; /* Quando passa o mouse por cima do botão entrar, o cursor vira uma "Mão"*/
+}
+
+form > input[type=submit]:hover { /* Dentro do form tem um input com type=submit (é o botão ENTRAR), quando passar o mouse por cima ele muda para essa configuração*/
+    background-color: #357473; /* Quando passa o mouse por cima, a cor do botão entrar muda para essa*/
+}
+
+form > a.botao { /* Dentro do form, tem um link com a class = "botao"*/
+    display: block; /* Transforma o link em bloco */
+    text-align: center; /* Faz o link ficar no meio do container*/ 
+    font-size: 1em; /* Muda o tamanho da fonte para 1em */
+    width: 100%; /* Faz o link ocupar 100% do container*/
+    height: 40px; /* Faz a altura do link ficar com 40px */
+    padding-top: 7px; /* Coloca um padding de 5px em cima */
+    margin-top: 5px; /* Coloca uma margem no botão de entrar9*/
+    background-color: white; /* Faz a cor do link ficar com essa cor*/
+    color: #357473;
+    border: 1px solid #49a09d; /* A borda fica com 1px, com essa cor e sólida */
+    border-radius: 5px; /* Arredonda a borda para 5px */
+    text-decoration: none; /* None: tira o sublinhado do link */
+}
+
+form > a.botao:hover { /* Dentro do form, tem um link com a class = "botao", quando passar o mouse por cima ele muda para essa configuração*/ 
+    background-color: #5fd0cd; /* Faz a cor do link ficar com essa cor quando passa o mouse em cima*/
+}
+
+form > a.botao > i { /* Dentro do form, tem um link com a class = "botao", e dentro tem um ícone (E-MAIL) */
+    font-size: 0.8em; /* Muda o tamanho da fonte para 0.8em */
 }
